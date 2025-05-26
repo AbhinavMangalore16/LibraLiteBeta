@@ -1,0 +1,31 @@
+# Core AI and ML packages
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+accelerate>=0.20.0
+langchain-community>=0.0.10
+
+# RAG and Vector Database
+langchain>=0.0.300
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Text Processing and Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+nltk>=3.8.1
+spacy>=3.5.0
+
+# API and Web
+fastapi>=0.100.0
+uvicorn>=0.22.0
+requests>=2.31.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Optional but recommended
+tiktoken>=0.4.0  # For token counting
+tqdm>=4.65.0    # For progress bars
+
